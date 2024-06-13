@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <title>图片水印打码工具</title>
+    <title>添加水印</title>
     <style>
         #container {
             max-width: 500px;
@@ -25,10 +25,18 @@
         canvas { box-sizing: border-box; width: 100%; border: 1px dashed #AAA; cursor: pointer }
     </style>
 </head>
+    
+    <body style="margin-bottom: 50px;">
     <div id="container">
-        <h1>图片水印打码工具</h1>
-        <article>安全地为你的图片加水印，无任何网络请求，特别适合各种敏感证件（身份证，驾照，护照等）。<a href="https://github.com/joyqi/sfz">Github地址</a></article>
-
+    <body>     
+        <h1 style="text-align:center;margin-bottom: 20px;">图片水印打码工具</h1>
+    </body> 
+    
+    <body>
+        <article><p>为您的图片加水印，安全无后台缓存，可用于身份证、护照、灯位图等等。内部使用请勿传播!</p></article>
+        <article><p>灯位图水印 复制后面文本填入：影视匠高清直播间搭建 | 严禁盗用</p></article>
+    </body> 
+        
         <label for="image">第一步：先选择一张本地图片</label>
         <p><input type="file" id="image" autocomplete="off"></p>
 
@@ -61,4 +69,41 @@
         <p id="graph"></p>
     </div>
     <script src="./build/script.js"></script>
+        
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 3000px auto; /* 用于模拟有滚动条的页面 */
+    }
+    .copyright {
+        position: fixed;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+    }
+
+    @media (prefers-color-scheme: light) {
+        .copyright {
+            background-color: #f0f0f0;
+            color: #000;
+        }
+    }
+</style>
+        
+<body>
+    <!-- 这里放你的网页内容 -->
+    <a href="https://www.longshao617.top/"><center>进入摄影人的世界</center></a>
+    <a href="https://github.com/Dragon617/sfz"><center>Github地址</center></a>
+    <div class="copyright">
+        &copy; 2024 图片加水印专用. LongShao All Rights Reserved.
+    </div>
+</body>
+    
 </html>
+
